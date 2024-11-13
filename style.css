@@ -1,0 +1,138 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/540533738/photo/blue-background.jpg?s=612x612&w=0&k=20&c=X3doabKNqbK6hBhq7vq5c8zQOYwycVFubOkxZC9NMoc=");
+}
+
+.navbar{
+    border: 1px solid gray;
+    margin: 30px;
+    border-left: 30px solid rgb(82, 124, 207);
+    background: rgb(250, 250, 248);
+}
+
+.logo{
+    border: 1px solid green;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 25%;
+}
+
+.logoImg{
+    width: 210px;
+}
+
+.headText{
+    border: 1px solid orange;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 124, 207);
+    font-size: 20px;
+ }
+
+.sections{
+    display: flex;
+}
+
+.myTextLeft{
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.loginPageRight{
+    border: 1px solid peru;
+    margin: -40px 10px 10px 10px;
+    width: 50%;
+}
+
+.userLoginPage{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(143, 135, 135);
+    margin: 20px 10px;
+    text-align: center;
+    background: rgb(248, 246, 246);
+    box-shadow: 7px 13px 8px rgba(15, 15, 11, 0.70);
+}
+
+.profileImg{
+    width: 60px;
+    /* opacity: 0.5; */                                     /* we can adjust the brightness of element*/
+    margin-right: auto;
+    margin-left: auto; 
+    background:#666; 
+    margin-top:-34px;                                       /* pushes the image up a bit */
+    /* box-shadow: 7px 13px 8px rgba(15, 15, 11, 0.70); */  /* adjust the shadow of element */   
+}
+
+.userLogin{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.userName{
+    text-align: center;
+    margin: 40px 70px;
+    padding: 25px 0;
+    font-size: 20px;
+    background: rgb(217, 211, 211);
+    border: none;
+}
+
+.userName:hover{
+    background: rgb(215, 221, 194);
+    color:white;
+    font-weight: bold;
+}
+
+.password{
+    text-align: center;
+    margin: 30px 70px;
+    padding: 25px 0;
+    font-size: 20px;
+    background: rgb(217, 211, 211);
+    border: none;
+}
+
+.password:hover{
+    background: rgb(215, 221, 194);
+    color:white;
+    font-weight: bold;
+}
+
+.login{
+    margin: 30px 70px 70px 70px;
+    background: skyblue;
+    padding: 25px 0;
+    font-size: 20px;
+    border: none;
+}
+
+.login:hover{
+    background: rgb(192, 126, 39);
+    color:white;
+    font-weight: bold;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(220, 112, 24);
+    padding-bottom: 80px;
+    padding-top: 50bx;
+}
+
+a:hover{
+    color: rgb(64, 117, 196);
+    font-weight: bold;
+}
+
+.pageNum{
+    margin: 20px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
